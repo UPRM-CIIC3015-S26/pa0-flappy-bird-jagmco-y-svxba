@@ -2,7 +2,7 @@ import pygame, random
 pygame.init()
 pygame.mixer.init()
 score_sound = pygame.mixer.Sound("sound.wav")
-crash_sound = pygame.mixer.Sound("crash.wav")
+crash_sound = pygame.mixer.Sound("crash.wav"
 '''
 Welcome to PA0 – Flappy Bird! Throughout this code, you are going to find a recreation of a game you have probably
 heard of before. This is an introductory assignment designed to help you familiarize yourself with what you can expect 
