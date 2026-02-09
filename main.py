@@ -16,7 +16,7 @@ pygame.display.set_caption("Flappy Bird")
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
-PLAYER = (255, 255, 255)
+PLAYER = (255, 255, 0)
 
 # Font Size -->
 big_font = pygame.font.SysFont(None, 80)
@@ -46,7 +46,7 @@ pipe_width = 70
 # TODO 2.1: A Little gap Problem
 # You probably noticed when running the code that it's impossible the player to go through the gaps
 # play around with the pipe_gap variable so that its big enough for the player to pass through
-pipe_gap = 20
+pipe_gap = 170
 pipe_height = random.randint(100, 400)
 # TODO 2.2: The too fast problem
 # The pipes are moving way too fast! Play around with the pipe_speed variable until you find a good
@@ -63,7 +63,7 @@ running = True
 while running:
     # TODO 6: Changing the name!
     # D'oh! This is not yout name isn't follow the detailed instructions on the PDF to complete this task.
-    name = "Homer Simpson"
+    name = "José García"
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -80,6 +80,7 @@ while running:
                     # It is your job to find why this is happening! (Hint: What variable stores the y coordinates
                     # of the bird)
                     bird_velocity = 0
+                    bird_y = 300
                     pipe_x = 400
                     score = 0
                     game_over = False
