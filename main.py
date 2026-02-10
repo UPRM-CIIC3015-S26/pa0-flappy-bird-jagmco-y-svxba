@@ -47,7 +47,7 @@ jump = -8
 pipe_x = 400
 pipe_width = 70
 # TODO 2.1: A Little gap Problem
-# You probably noticed when running the code that it's impossible the player to go through the gaps
+# You probably noticed when runNning the code that it's impossible the player to go through the gaps
 # play around with the pipe_gap variable so that its big enough for the player to pass through
 pipe_gap = 20
 pipe_height = random.randint(100, 400)
