@@ -116,7 +116,7 @@ while running:
 
     screen.fill(pygame.Color('grey12'))
     # TODO 5: A Bird's Color
-    # The color of the player is currently white, let's change that a bit! You are free to change the bird's
+    # The colorr of the player is currently white, let's change that a bit! You are free to change the bird's
     # to whatever you wish. You will need to head back to where the PLAYER variable was created and change the values.
     pygame.draw.rect(screen, PLAYER, (bird_x, bird_y, 30, 30)) # Drawing the bird (You don't need to touch this line!)
     pygame.draw.rect(screen, GREEN, (pipe_x, 0, pipe_width, pipe_height))
